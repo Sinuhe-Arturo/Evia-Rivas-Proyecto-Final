@@ -1,0 +1,29 @@
+
+.container > form > div > label{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 1100px;
+}
+
+.container > form > div .form-control{
+    background-color: rgb(150, 103, 110);
+    color: black;
+    font-weight: bold;
+}
+
+.container > form > div .btn{
+    margin-left: 500px;
+}
+
+table > thead > tr > th{
+    color: rgb(76, 0, 255);
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.titulo{
+    text-align: center;
+}
