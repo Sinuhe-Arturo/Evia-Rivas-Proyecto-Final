@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 56px;
+    background: rgb(20, 151, 151);
+    color: rgb(231, 157, 19);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+h1 {
+    float: left;
+	font-family: opensans;
+	padding-top: 10px;
+	font-size: 33px;
+    margin-left: 6px;
+}
+
+header label {
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.menu a {
+    display: block;
+    color: rgb(231, 157, 19);
+    height: 47px;
+    text-decoration: none;
+    padding: 15px;
+	font-size: 25px;
+}
+
+.menu {
+    width: auto;
+    height: auto;
+    float: right;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#bienvenidos {
+    text-align: center;
+}
+
+#bienvenidos p {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+
+
+#blog article {
+    margin: 35px
+}
+
+#blog img {
+    width: 100%;
+}
+
+
+
+
+
+#info {
+    background: rgb(11, 117, 121);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-serv {
+    margin: 20px;
+}
+
+.info-serv img {
+    width: 180px;
+    height: 180px;
+}
+
+
+
+
+
+
+
+
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+
+
+}

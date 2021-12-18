@@ -1,0 +1,9 @@
+.contenedor-dashboard{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.contenedor-dashboard > div {
+    border: 8px rgb(19, 199, 190) solid;
+}
